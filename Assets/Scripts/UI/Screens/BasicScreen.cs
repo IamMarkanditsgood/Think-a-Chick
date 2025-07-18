@@ -13,6 +13,12 @@ public abstract class BasicScreen : MonoBehaviour
     {
     }
 
+    public virtual void SendData(object data)
+    {
+        // This method can be overridden to handle data passed to the screen
+        // For example, you might want to set some properties based on the data
+    }
+
     public virtual void Show()
     {
         SetScreen();

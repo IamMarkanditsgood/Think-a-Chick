@@ -10,7 +10,7 @@ public class UIManager: MonoBehaviour
 
     public static UIManager Instance { get; private set; }
 
-    public void Start()
+    public void Awake()
     {
         if (Instance == null)
         {
@@ -18,6 +18,7 @@ public class UIManager: MonoBehaviour
         }
         
         InitScreens();
+        ShowScreen(ScreenTypes.MainMenu);
     }
     
     private void InitScreens()

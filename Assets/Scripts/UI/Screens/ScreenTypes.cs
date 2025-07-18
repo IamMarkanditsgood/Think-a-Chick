@@ -1,10 +1,10 @@
 public enum ScreenTypes
 {
-    StartScreen,
-    Game,
-    Shop,
-    AnimalInfo,
+    MainMenu,
+    Settings,
+    Categories,
     Profile,
     Info,
-    Onbording,
+    Results,
+    Quiz,
 }
