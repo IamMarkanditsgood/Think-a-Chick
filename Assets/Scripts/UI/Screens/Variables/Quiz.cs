@@ -82,7 +82,6 @@ public class Quiz : BasicScreen
         answerButton.interactable = false;
         currentQuestionIndex = 0;
         currentChoosedAnswerIndex = -1;
-        results.Clear();
 
         for(int i = 0; i < currentQuiz.questions.Count; i++)
         {
@@ -119,7 +118,7 @@ public class Quiz : BasicScreen
     {
         for (int i = 0; i < replyButtons.Length; i++)
         {
-            replyButtons[i].GetComponent<Image>().sprite = defaultQuestionPoint;
+            replyButtons[i].GetComponent<Image>().sprite = defaultReplyButtonSprite;
         }
 
         if (currentQuestionIndex < currentQuiz.questions.Count)
