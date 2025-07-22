@@ -13,39 +13,140 @@ MonoBehaviour:
   m_Name: Emotions
   m_EditorClassIdentifier: 
   questions:
-  - questionEmoji: []
-    options: []
+  - questionEmoji:
+    - {fileID: 21300000, guid: fbdcd210e8f35d74992ebb6fe6acded1, type: 3}
+    - {fileID: 21300000, guid: 5e5dece0487b6ff4aae69ebe45ca2d9f, type: 3}
+    - {fileID: 21300000, guid: a1f0939ece2327f43973f2a2e7591337, type: 3}
+    - {fileID: 21300000, guid: d20f068f91edc9848881b898f3243d5c, type: 3}
+    - {fileID: 21300000, guid: ed812ef352c6df94bbc8d43e83f68b26, type: 3}
+    options:
+    - Fear
+    - Excitement
+    - Surprise
+    - Joy
+    correctOptionIndex: 3
+  - questionEmoji:
+    - {fileID: 21300000, guid: 5ca6f9ad1ff3582469411065982165aa, type: 3}
+    - {fileID: 21300000, guid: 85d47bd1579b1034cbb12fc8efcd1675, type: 3}
+    - {fileID: 21300000, guid: 07fe44f29208f5c41b3417caf56cd0cc, type: 3}
+    - {fileID: 21300000, guid: 9f70ab52553175942b946ca3736de96f, type: 3}
+    - {fileID: 21300000, guid: fc4affdc5ed9ba74cacc6f5beb28a5d8, type: 3}
+    options:
+    - Shyness
+    - Sadness
+    - Surprise
+    - Calm
+    correctOptionIndex: 1
+  - questionEmoji:
+    - {fileID: 21300000, guid: 363d172e146408c47a906075b1f28170, type: 3}
+    - {fileID: 21300000, guid: 8a78bad9df4401741b9d521eed619a6f, type: 3}
+    - {fileID: 21300000, guid: b825c5f26fab349458937305f8e0c85e, type: 3}
+    - {fileID: 21300000, guid: d993fea27575dbb4989f58e7c8a82b04, type: 3}
+    options:
+    - Confusion
+    - Anger
+    - Surprise
+    - Calm
+    correctOptionIndex: 1
+  - questionEmoji:
+    - {fileID: 21300000, guid: 37764a4d49e470e4d97e49af36c3b09b, type: 3}
+    - {fileID: 21300000, guid: 9b3c17bded234be4a8288dd1bedb6e9e, type: 3}
+    - {fileID: 21300000, guid: 6552927180cdaa8418ebf05afa7b6896, type: 3}
+    - {fileID: 21300000, guid: 18d74eb65acf5ce4cb2236592c9aeb9c, type: 3}
+    options:
+    - Confusion
+    - Disgust
+    - Fear
+    - Love
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: 29e99ea961e361749aca7f369ccf9246, type: 3}
+    - {fileID: 21300000, guid: a147d4916f070084bbeb6dcc3c087bee, type: 3}
+    - {fileID: 21300000, guid: 9eb7bc5a00c72be4bac4f4c143fd88ee, type: 3}
+    - {fileID: 21300000, guid: ccede991e369d1741b35793258bda65d, type: 3}
+    - {fileID: 21300000, guid: b205e1ce78dc0fa41bd4ee7f279b86be, type: 3}
+    options:
+    - Disgust
+    - Sadness
+    - Surprise
+    - Anger
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: a74b1f6d2a59f314fb65396d49539adf, type: 3}
+    - {fileID: 21300000, guid: 2c803c20789f2dd4ea5f6beed88e0ba2, type: 3}
+    - {fileID: 21300000, guid: 33df8c426d376ba4f89d47b68db96a4a, type: 3}
+    - {fileID: 21300000, guid: 43ccfaec3d5530b4baaf9e42cae5305f, type: 3}
+    options:
+    - Joy
+    - Sadness
+    - Disgust
+    - Surprise
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: 505cc1fcfd041ff419892a1077b78ee4, type: 3}
+    - {fileID: 21300000, guid: 9513d57fe8766a443b32fda5d824de59, type: 3}
+    - {fileID: 21300000, guid: 90b3ebf9c95f11548b69e097836099d4, type: 3}
+    - {fileID: 21300000, guid: 1737538a14bff1443b73dac0004ef59f, type: 3}
+    - {fileID: 21300000, guid: c7ef84cfc8f7ac14bb33f4c258bf0896, type: 3}
+    options:
+    - Fear
+    - Surprise
+    - Love
+    - Anger
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: a56f7ba02398c4940a7a8b3eac920b22, type: 3}
+    - {fileID: 21300000, guid: 3aca1f646f690424c9bbb13e1eea22ad, type: 3}
+    - {fileID: 21300000, guid: 587eb0ccf8926e140ae947412f6c9104, type: 3}
+    - {fileID: 21300000, guid: c1813aca6caf21a4e8513c95c70e7647, type: 3}
+    options:
+    - Shyness
+    - Confusion
+    - Calm
+    - Anger
+    correctOptionIndex: 1
+  - questionEmoji:
+    - {fileID: 21300000, guid: 013b0506dd35e21449a43c47da2f852b, type: 3}
+    - {fileID: 21300000, guid: a5c9f41915813294f8096e46b47612a7, type: 3}
+    - {fileID: 21300000, guid: f5ea7eb832322fb479f55741450874b9, type: 3}
+    - {fileID: 21300000, guid: 9877e5e9e35d48343a8bccb0e008fd5a, type: 3}
+    options:
+    - Surprise
+    - Love
+    - Calm
+    - Excitement
+    correctOptionIndex: 3
+  - questionEmoji:
+    - {fileID: 21300000, guid: 870b378a5e9c5474d99eae500585dd71, type: 3}
+    - {fileID: 21300000, guid: 4693db85cc2e7a24d8ca679b80cde762, type: 3}
+    - {fileID: 21300000, guid: 2605ca46e20f2e74b9f14d7bca87fb43, type: 3}
+    - {fileID: 21300000, guid: 75b41e72e57357c459e26fc57f6586c3, type: 3}
+    options:
+    - Anger
+    - Calm
+    - Pride
+    - Joy
+    correctOptionIndex: 1
+  - questionEmoji:
+    - {fileID: 21300000, guid: a056e00b7e54cef4d9d7f29675b03fec, type: 3}
+    - {fileID: 21300000, guid: bda0c931d1e45014d93ee6900fc7c58c, type: 3}
+    - {fileID: 21300000, guid: 735303937a5b6e24694001f220b173b3, type: 3}
+    - {fileID: 21300000, guid: 5a10d0a7257658843be4bb5716e8f62a, type: 3}
+    options:
+    - Shyness
+    - Anger
+    - Confusion
+    - Sadness
     correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
+  - questionEmoji:
+    - {fileID: 21300000, guid: ae06fc5aa64e2184e8c7c4fa6c9029c8, type: 3}
+    - {fileID: 21300000, guid: e055b2689b96c2a41a99744edec63d13, type: 3}
+    - {fileID: 21300000, guid: eac9496b97661164f9e68af8538a4b6c, type: 3}
+    - {fileID: 21300000, guid: 02b0028c497969b4e91f689fa2e9b625, type: 3}
+    - {fileID: 21300000, guid: 682fe8c021a75174ea12432f4277c7c9, type: 3}
+    options:
+    - Love
+    - Disgust
+    - Pride
+    - Joy
+    correctOptionIndex: 2

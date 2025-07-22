@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Results : BasicScreen
 {
     public Button close;
+    public Button tryAgain;
 
     public Image[] results;
     public Sprite correctResult;
@@ -20,6 +21,18 @@ public class Results : BasicScreen
     }
 
     private ResultsData _resultsData = new();
+
+    public void Start()
+    {
+        close.onClick.AddListener(Close);
+        tryAgain.onClick.AddListener(TryAgain);
+    
+    }
+    private void OnDestroy()
+    {
+        close.onClick.RemoveListener(Close);
+        tryAgain.onClick.RemoveListener(TryAgain);
+    }
     public override void SendData(object data)
     {
         _resultsData = data as ResultsData;
@@ -55,6 +68,16 @@ public class Results : BasicScreen
 
     public override void ResetScreen()
     {
+    }
+
+    private void Close()
+    {
+        UIManager.Instance.ShowScreen(ScreenTypes.MainMenu);
+    }
+
+    private void TryAgain()
+    {
+        UIManager.Instance.ShowScreen(ScreenTypes.Quiz);
     }
 }
 public class ResultsData

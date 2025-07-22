@@ -128,6 +128,10 @@ public class Quiz : BasicScreen
             {
                 replyTexts[i].text = currentQuiz.questions[currentQuestionIndex].options[i];
             }
+            for(int i = 0; i < emojiImages.Length; i++)
+            {
+                emojiImages[i].gameObject.SetActive(false);
+            }
 
             for (int i = 0; i < currentQuiz.questions[currentQuestionIndex].questionEmoji.Count; i++)
             {
@@ -148,7 +152,7 @@ public class Quiz : BasicScreen
             currentChoosedAnswerIndex = index;
             for (int i = 0; i < replyButtons.Length; i++)
             {
-                replyButtons[i].GetComponent<Image>().sprite = defaultQuestionPoint;
+                replyButtons[i].GetComponent<Image>().sprite = defaultReplyButtonSprite;
             }         
             replyButtons[index].GetComponent<Image>().sprite = currentReplyButtonSprite;
 
@@ -170,6 +174,10 @@ public class Quiz : BasicScreen
             int correct = PlayerPrefs.GetInt("TotalCorrectAnswers", 0);
             correct++;
             PlayerPrefs.SetInt("TotalCorrectAnswers", correct);
+
+            int coins = PlayerPrefs.GetInt("Coins", 0);
+            coins++;
+            PlayerPrefs.SetInt("Coins", coins);
 
             replyButtons[currentChoosedAnswerIndex].GetComponent<Image>().sprite = correctReplyButtonSprite;
             pointers[currentQuestionIndex].sprite = correntQuestionPoint;

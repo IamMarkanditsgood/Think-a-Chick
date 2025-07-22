@@ -8677,13 +8677,13 @@ MonoBehaviour:
   results: 000000000000000000000000
   quizConfigs:
   - {fileID: 11400000, guid: 1f0ff3fc9d05d684fac7a807ffecf5f5, type: 2}
-  - {fileID: 11400000, guid: 9786c620303b5324c973c48010d30840, type: 2}
-  - {fileID: 11400000, guid: 8b17d850d53c05c49a5956d5b9cba574, type: 2}
+  - {fileID: 11400000, guid: dba0019da11a0be4c8e52158bc688a56, type: 2}
   - {fileID: 11400000, guid: 355686556cefc67458970d4fe8452588, type: 2}
-  - {fileID: 11400000, guid: a8f417597ae6f614d8240935c0362077, type: 2}
+  - {fileID: 11400000, guid: 8b17d850d53c05c49a5956d5b9cba574, type: 2}
   - {fileID: 11400000, guid: 35a6c2f329a33774c9c5deab75b097a7, type: 2}
-  - {fileID: 11400000, guid: 5a1dba6e8764cc14fa1b7d81eef85f64, type: 2}
+  - {fileID: 11400000, guid: a8f417597ae6f614d8240935c0362077, type: 2}
   - {fileID: 11400000, guid: 35246f33df042d94fb70a31933962763, type: 2}
+  - {fileID: 11400000, guid: 5a1dba6e8764cc14fa1b7d81eef85f64, type: 2}
   - {fileID: 11400000, guid: 3a3a35942fff7964c8b498ccd7061a13, type: 2}
   - {fileID: 11400000, guid: b57be92932144f847896eedfdae45e0e, type: 2}
   - {fileID: 11400000, guid: b1b973dbf1ef48f49b8310a7be023864, type: 2}
@@ -10050,7 +10050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a8c2314f6dea94e4cbf9eeec99bb0d0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10672,7 +10672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _view: {fileID: 339460163}
   _screenType: 5
-  close: {fileID: 987802951}
+  close: {fileID: 1442959810}
+  tryAgain: {fileID: 1418564330}
   results:
   - {fileID: 1299653472}
   - {fileID: 978929575}
@@ -11130,7 +11131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &833192147
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12257,7 +12258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &987802950
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16612,7 +16613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1298034913
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17338,7 +17339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1341318854
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23856,7 +23857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1911756339
 RectTransform:
   m_ObjectHideFlags: 0

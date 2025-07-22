@@ -13,39 +13,138 @@ MonoBehaviour:
   m_Name: Food
   m_EditorClassIdentifier: 
   questions:
-  - questionEmoji: []
-    options: []
+  - questionEmoji:
+    - {fileID: 21300000, guid: aa3224f9dcbc04c4b91b3e97c851cc22, type: 3}
+    - {fileID: 21300000, guid: 481cdc3241c8ad5428937b84548d7a4e, type: 3}
+    - {fileID: 21300000, guid: ac09406a82b678e4597da5dc1ce652a9, type: 3}
+    - {fileID: 21300000, guid: 389f52289e5944b44b8509d18bee741e, type: 3}
+    - {fileID: 21300000, guid: dff57ec98e99658429620e9a79913de0, type: 3}
+    options:
+    - Pizza
+    - Ice Cream
+    - Fries
+    - Burger
     correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
+  - questionEmoji:
+    - {fileID: 21300000, guid: 519de3de360a93043b3caf24322e94dc, type: 3}
+    - {fileID: 21300000, guid: 325832ee4bab3d542bd8a15dbb96b496, type: 3}
+    - {fileID: 21300000, guid: 06ce9c77ae69b9342b59de130b18fe08, type: 3}
+    - {fileID: 21300000, guid: 8f1589cc45611cc4b9fbdf4b8375a5c7, type: 3}
+    - {fileID: 21300000, guid: c74a4eca09feaf648915740e35dd4a0e, type: 3}
+    - {fileID: 21300000, guid: c672ba9ff3a785a42a62c1255c2e7e52, type: 3}
+    options:
+    - Sandwich
+    - Pasta
+    - Sushi
+    - Ice Cream
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: 4e2b0558e90a77d4fbf10d959517c24e, type: 3}
+    - {fileID: 21300000, guid: abd30f9e1358a3c439800caa75249bf0, type: 3}
+    - {fileID: 21300000, guid: d66faab9555c7a249aeb6f500b995bd5, type: 3}
+    - {fileID: 21300000, guid: d5b7264790103bc4f9da168236b8c5d9, type: 3}
+    options:
+    - Soup
+    - Salad
+    - Burger
+    - Taco
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: fa68bdcb97789604e9a28552f1ec520f, type: 3}
+    - {fileID: 21300000, guid: e94e7379bf4a6b440857c569643dd815, type: 3}
+    - {fileID: 21300000, guid: fe6e2f7514d7dd84190c89461753ff02, type: 3}
+    - {fileID: 21300000, guid: 0a799ecc8c02f4546b89b5e1663632f7, type: 3}
+    options:
+    - Pancakes
+    - Pizza
+    - Salad
+    - Burger
+    correctOptionIndex: 2
+  - questionEmoji:
+    - {fileID: 21300000, guid: 4b0cb1fb59163624f92ccae95783ac1b, type: 3}
+    - {fileID: 21300000, guid: 18d0bb93e193c9e4f8b6c54f6a04be5a, type: 3}
+    - {fileID: 21300000, guid: cc0a86306c0d2ec4cac402d1b8654fd0, type: 3}
+    options:
+    - Soup
+    - Cake
+    - Sandwich
+    - Pasta
+    correctOptionIndex: 3
+  - questionEmoji:
+    - {fileID: 21300000, guid: b9f014d789e2c1e4da3a9298697fb082, type: 3}
+    - {fileID: 21300000, guid: 4c38afeac4eb2ab4f871817eb52dfcb3, type: 3}
+    - {fileID: 21300000, guid: 5876b6739fe697947ba3d0e92951e51c, type: 3}
+    - {fileID: 21300000, guid: 5d5644d31ac37e547972303db27ca54a, type: 3}
+    - {fileID: 21300000, guid: 5e844c112da307046b34194056d70150, type: 3}
+    - {fileID: 21300000, guid: fa755c4b818a5444b85cba7a0e3016cb, type: 3}
+    options:
+    - Sandwich
+    - Burger
+    - Salad
+    - Ice Cream
+    correctOptionIndex: 3
+  - questionEmoji:
+    - {fileID: 21300000, guid: 202cf6d37650d734fafedbd50bdb1c59, type: 3}
+    - {fileID: 21300000, guid: 6f540e3b96c1a22469152ba01e43fb7e, type: 3}
+    - {fileID: 21300000, guid: 24a83748f33b7fa418dbc5c890fca182, type: 3}
+    - {fileID: 21300000, guid: 1b7d326ec5e360a41af7483a1ecfe118, type: 3}
+    - {fileID: 21300000, guid: 01f01254d14ecaf4b9f9ada30d661684, type: 3}
+    options:
+    - Soup
+    - Fries
+    - Pancakes
+    - Ice Cream
     correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
+  - questionEmoji:
+    - {fileID: 21300000, guid: 7f722294a1c8c9946b5e6eb533d48f84, type: 3}
+    - {fileID: 21300000, guid: 78308d03c7a1efd4398c2f9fc315cf54, type: 3}
+    options:
+    - Pancakes
+    - Pizza
+    - Ice Cream
+    - Fries
+    correctOptionIndex: 3
+  - questionEmoji:
+    - {fileID: 21300000, guid: baa8550457648a34e95364ca2715b417, type: 3}
+    - {fileID: 21300000, guid: b6a4e18084d002742bd418932b729445, type: 3}
+    - {fileID: 21300000, guid: f753bda68e00e6d4fbb519fc0fbd7188, type: 3}
+    - {fileID: 21300000, guid: a6c7d239c8f7e7844a5a0ad54ddae2c8, type: 3}
+    options:
+    - Cake
+    - Pasta
+    - Salad
+    - Fries
     correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
-  - questionEmoji: []
-    options: []
-    correctOptionIndex: 0
+  - questionEmoji:
+    - {fileID: 21300000, guid: 9a349ba6891f4034e87f437cf43b01f4, type: 3}
+    - {fileID: 21300000, guid: ef59b1fd0974d7b41960d5b261733592, type: 3}
+    - {fileID: 21300000, guid: ccf6b883861afb74dbe9a562f24db82d, type: 3}
+    options:
+    - Soup
+    - Sandwich
+    - Pizza
+    - Taco
+    correctOptionIndex: 1
+  - questionEmoji:
+    - {fileID: 21300000, guid: 0d225bfbc6f059e4f9ba91b47bd21397, type: 3}
+    - {fileID: 21300000, guid: 9a67a0dd71a448e4ab8d3130528cef6b, type: 3}
+    - {fileID: 21300000, guid: a98ae0f4602ae0f478b2b11060bd5612, type: 3}
+    - {fileID: 21300000, guid: f6f3779551eabdb428e382cb7c5b350b, type: 3}
+    - {fileID: 21300000, guid: 15921c464474721408f543c0a3a3fcda, type: 3}
+    - {fileID: 21300000, guid: bb37fe815de4dee4eb3d2e1bebaf98c4, type: 3}
+    options:
+    - Salad
+    - Pasta
+    - Pizza
+    - Taco
+    correctOptionIndex: 3
+  - questionEmoji:
+    - {fileID: 21300000, guid: 383ab66ecd90dc74086bc2ac1474dcd8, type: 3}
+    - {fileID: 21300000, guid: 794d6e6ca8799e84b81ab72e5bd82bf5, type: 3}
+    - {fileID: 21300000, guid: 90edc8161b8bfa746ba576e3d7ff7026, type: 3}
+    options:
+    - 'Ice Cream '
+    - Pancakes
+    - Soup
+    - Pasta
+    correctOptionIndex: 1
